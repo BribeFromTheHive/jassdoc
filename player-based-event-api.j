@@ -6,6 +6,8 @@ native TriggerRegisterPlayerEvent takes trigger whichTrigger, player whichPlayer
 /**
 @event EVENT_PLAYER_DEFEAT
 @event EVENT_PLAYER_VICTORY
+
+@note this function also returns the owner of the triggering unit, if the event was a playerunitevent.
 */
 constant native GetTriggerPlayer takes nothing returns player
 
